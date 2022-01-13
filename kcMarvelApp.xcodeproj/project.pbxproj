@@ -18,12 +18,77 @@
 		AB6CFF2627901A8C003514C4 /* HeroeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2527901A8C003514C4 /* HeroeDetailView.swift */; };
 		AB6CFF2827901AF8003514C4 /* HeroesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2727901AF8003514C4 /* HeroesModel.swift */; };
 		AB6CFF2B27901B3B003514C4 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2A27901B3B003514C4 /* BaseNetwork.swift */; };
-		AB6CFF2F27901D9D003514C4 /* InitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2E27901D9D003514C4 /* InitViewModel.swift */; };
+		AB6CFF2F27901D9D003514C4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2E27901D9D003514C4 /* HomeViewModel.swift */; };
 		AB6CFF3327902312003514C4 /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF3227902312003514C4 /* HeroesListView.swift */; };
 		AB6CFF3527902397003514C4 /* HeroesRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF3427902397003514C4 /* HeroesRowView.swift */; };
 		AB6CFF37279023C9003514C4 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF36279023C9003514C4 /* PhotoViewModel.swift */; };
 		AB6CFF3927902796003514C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF3827902796003514C4 /* HomeView.swift */; };
+		ABDD758E2790BA8100580B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDD758D2790BA8100580B89 /* Assets.xcassets */; };
+		ABDD75942790BA8100580B89 /* whatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ABDD75932790BA8100580B89 /* whatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABDD759B2790BA8200580B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD759A2790BA8200580B89 /* ContentView.swift */; };
+		ABDD759D2790BA8200580B89 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD759C2790BA8200580B89 /* NotificationController.swift */; };
+		ABDD759F2790BA8200580B89 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD759E2790BA8200580B89 /* NotificationView.swift */; };
+		ABDD75A12790BA8200580B89 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD75A02790BA8200580B89 /* ComplicationController.swift */; };
+		ABDD75A32790BA8200580B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDD75A22790BA8200580B89 /* Assets.xcassets */; };
+		ABDD75A62790BA8200580B89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDD75A52790BA8200580B89 /* Preview Assets.xcassets */; };
+		ABDD75AB2790BA8200580B89 /* whatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ABDD758B2790BA7F00580B89 /* whatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABDD75B42790BAE100580B89 /* kcMarvelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1DCCA6278EED31007AA1B8 /* kcMarvelAppApp.swift */; };
+		ABDD75B62790BB4500580B89 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2E27901D9D003514C4 /* HomeViewModel.swift */; };
+		ABDD75B72790BB7900580B89 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2A27901B3B003514C4 /* BaseNetwork.swift */; };
+		ABDD75B82790BB8700580B89 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF20279016C0003514C4 /* StatusModel.swift */; };
+		ABDD75B92790BB8900580B89 /* HeroesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2727901AF8003514C4 /* HeroesModel.swift */; };
+		ABDD75BA2790BB8C00580B89 /* SeriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB214F55279089AE00D09D43 /* SeriesListViewModel.swift */; };
+		ABDD75BB2790BB8E00580B89 /* HeroesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2327901A1B003514C4 /* HeroesListViewModel.swift */; };
+		ABDD75BC2790BB9200580B89 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF36279023C9003514C4 /* PhotoViewModel.swift */; };
+		ABDD75BD2790BB9500580B89 /* SeriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB214F502790893100D09D43 /* SeriesListView.swift */; };
+		ABDD75BE2790BB9700580B89 /* SeriesRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB214F522790894A00D09D43 /* SeriesRowView.swift */; };
+		ABDD75BF2790BB9900580B89 /* HeroeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF2527901A8C003514C4 /* HeroeDetailView.swift */; };
+		ABDD75C02790BB9B00580B89 /* HeroesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF3227902312003514C4 /* HeroesListView.swift */; };
+		ABDD75C12790BB9D00580B89 /* HeroesRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF3427902397003514C4 /* HeroesRowView.swift */; };
+		ABDD75C22790BB9F00580B89 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6CFF3827902796003514C4 /* HomeView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABDD75952790BA8100580B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1DCC9B278EED31007AA1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDD75922790BA8100580B89;
+			remoteInfo = "whatch WatchKit Extension";
+		};
+		ABDD75A92790BA8200580B89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1DCC9B278EED31007AA1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDD758A2790BA7F00580B89;
+			remoteInfo = whatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABDD75AC2790BA8200580B89 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ABDD75AB2790BA8200580B89 /* whatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDD75AF2790BA8200580B89 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ABDD75942790BA8100580B89 /* whatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB1DCCA3278EED31007AA1B8 /* kcMarvelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kcMarvelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,15 +104,41 @@
 		AB6CFF2527901A8C003514C4 /* HeroeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeDetailView.swift; sourceTree = "<group>"; };
 		AB6CFF2727901AF8003514C4 /* HeroesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesModel.swift; sourceTree = "<group>"; };
 		AB6CFF2A27901B3B003514C4 /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
-		AB6CFF2E27901D9D003514C4 /* InitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewModel.swift; sourceTree = "<group>"; };
+		AB6CFF2E27901D9D003514C4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		AB6CFF3227902312003514C4 /* HeroesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListView.swift; sourceTree = "<group>"; };
 		AB6CFF3427902397003514C4 /* HeroesRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesRowView.swift; sourceTree = "<group>"; };
 		AB6CFF36279023C9003514C4 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
 		AB6CFF3827902796003514C4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ABDD758B2790BA7F00580B89 /* whatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDD758D2790BA8100580B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDD75932790BA8100580B89 /* whatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "whatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDD759A2790BA8200580B89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABDD759C2790BA8200580B89 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		ABDD759E2790BA8200580B89 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		ABDD75A02790BA8200580B89 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		ABDD75A22790BA8200580B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDD75A52790BA8200580B89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABDD75A72790BA8200580B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDD75A82790BA8200580B89 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ABDD75C72790BBF100580B89 /* macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB1DCCA0278EED31007AA1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDD75902790BA8100580B89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDD75C42790BBF100580B89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,6 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				AB1DCCA5278EED31007AA1B8 /* kcMarvelApp */,
+				ABDD758C2790BA8000580B89 /* whatch */,
+				ABDD75972790BA8100580B89 /* whatch WatchKit Extension */,
 				AB1DCCA4278EED31007AA1B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				AB1DCCA3278EED31007AA1B8 /* kcMarvelApp.app */,
+				ABDD758B2790BA7F00580B89 /* whatch.app */,
+				ABDD75932790BA8100580B89 /* whatch WatchKit Extension.appex */,
+				ABDD75C72790BBF100580B89 /* macos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,7 +233,7 @@
 		AB6CFF1927901337003514C4 /* init */ = {
 			isa = PBXGroup;
 			children = (
-				AB6CFF2E27901D9D003514C4 /* InitViewModel.swift */,
+				AB6CFF2E27901D9D003514C4 /* HomeViewModel.swift */,
 			);
 			path = init;
 			sourceTree = "<group>";
@@ -177,6 +273,37 @@
 			path = services;
 			sourceTree = "<group>";
 		};
+		ABDD758C2790BA8000580B89 /* whatch */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD758D2790BA8100580B89 /* Assets.xcassets */,
+			);
+			path = whatch;
+			sourceTree = "<group>";
+		};
+		ABDD75972790BA8100580B89 /* whatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD759A2790BA8200580B89 /* ContentView.swift */,
+				ABDD759C2790BA8200580B89 /* NotificationController.swift */,
+				ABDD759E2790BA8200580B89 /* NotificationView.swift */,
+				ABDD75A02790BA8200580B89 /* ComplicationController.swift */,
+				ABDD75A22790BA8200580B89 /* Assets.xcassets */,
+				ABDD75A72790BA8200580B89 /* Info.plist */,
+				ABDD75A82790BA8200580B89 /* PushNotificationPayload.apns */,
+				ABDD75A42790BA8200580B89 /* Preview Content */,
+			);
+			path = "whatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		ABDD75A42790BA8200580B89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD75A52790BA8200580B89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,14 +314,67 @@
 				AB1DCC9F278EED31007AA1B8 /* Sources */,
 				AB1DCCA0278EED31007AA1B8 /* Frameworks */,
 				AB1DCCA1278EED31007AA1B8 /* Resources */,
+				ABDD75AC2790BA8200580B89 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDD75AA2790BA8200580B89 /* PBXTargetDependency */,
+			);
+			name = kcMarvelApp;
+			productName = kcMarvelApp;
+			productReference = AB1DCCA3278EED31007AA1B8 /* kcMarvelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABDD758A2790BA7F00580B89 /* whatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDD75B32790BA8200580B89 /* Build configuration list for PBXNativeTarget "whatch" */;
+			buildPhases = (
+				ABDD75892790BA7F00580B89 /* Resources */,
+				ABDD75AF2790BA8200580B89 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDD75962790BA8100580B89 /* PBXTargetDependency */,
+			);
+			name = whatch;
+			productName = whatch;
+			productReference = ABDD758B2790BA7F00580B89 /* whatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		ABDD75922790BA8100580B89 /* whatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDD75B22790BA8200580B89 /* Build configuration list for PBXNativeTarget "whatch WatchKit Extension" */;
+			buildPhases = (
+				ABDD758F2790BA8100580B89 /* Sources */,
+				ABDD75902790BA8100580B89 /* Frameworks */,
+				ABDD75912790BA8100580B89 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = kcMarvelApp;
-			productName = kcMarvelApp;
-			productReference = AB1DCCA3278EED31007AA1B8 /* kcMarvelApp.app */;
+			name = "whatch WatchKit Extension";
+			productName = "whatch WatchKit Extension";
+			productReference = ABDD75932790BA8100580B89 /* whatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		ABDD75C62790BBF100580B89 /* macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDD75D32790BBF300580B89 /* Build configuration list for PBXNativeTarget "macos" */;
+			buildPhases = (
+				ABDD75C32790BBF100580B89 /* Sources */,
+				ABDD75C42790BBF100580B89 /* Frameworks */,
+				ABDD75C52790BBF100580B89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macos;
+			productName = macos;
+			productReference = ABDD75C72790BBF100580B89 /* macos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -208,6 +388,15 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					AB1DCCA2278EED31007AA1B8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ABDD758A2790BA7F00580B89 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ABDD75922790BA8100580B89 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					ABDD75C62790BBF100580B89 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -226,6 +415,9 @@
 			projectRoot = "";
 			targets = (
 				AB1DCCA2278EED31007AA1B8 /* kcMarvelApp */,
+				ABDD758A2790BA7F00580B89 /* whatch */,
+				ABDD75922790BA8100580B89 /* whatch WatchKit Extension */,
+				ABDD75C62790BBF100580B89 /* macos */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +429,30 @@
 			files = (
 				AB1DCCAE278EED33007AA1B8 /* Preview Assets.xcassets in Resources */,
 				AB1DCCAB278EED33007AA1B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDD75892790BA7F00580B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDD758E2790BA8100580B89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDD75912790BA8100580B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDD75A62790BA8200580B89 /* Preview Assets.xcassets in Resources */,
+				ABDD75A32790BA8200580B89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDD75C52790BBF100580B89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,11 +476,56 @@
 				AB1DCCA7278EED31007AA1B8 /* kcMarvelAppApp.swift in Sources */,
 				AB214F512790893100D09D43 /* SeriesListView.swift in Sources */,
 				AB6CFF2427901A1B003514C4 /* HeroesListViewModel.swift in Sources */,
-				AB6CFF2F27901D9D003514C4 /* InitViewModel.swift in Sources */,
+				AB6CFF2F27901D9D003514C4 /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDD758F2790BA8100580B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDD759D2790BA8200580B89 /* NotificationController.swift in Sources */,
+				ABDD75BC2790BB9200580B89 /* PhotoViewModel.swift in Sources */,
+				ABDD75B92790BB8900580B89 /* HeroesModel.swift in Sources */,
+				ABDD75B82790BB8700580B89 /* StatusModel.swift in Sources */,
+				ABDD75B62790BB4500580B89 /* HomeViewModel.swift in Sources */,
+				ABDD759B2790BA8200580B89 /* ContentView.swift in Sources */,
+				ABDD75BF2790BB9900580B89 /* HeroeDetailView.swift in Sources */,
+				ABDD75BE2790BB9700580B89 /* SeriesRowView.swift in Sources */,
+				ABDD75B42790BAE100580B89 /* kcMarvelAppApp.swift in Sources */,
+				ABDD75C22790BB9F00580B89 /* HomeView.swift in Sources */,
+				ABDD75A12790BA8200580B89 /* ComplicationController.swift in Sources */,
+				ABDD75BB2790BB8E00580B89 /* HeroesListViewModel.swift in Sources */,
+				ABDD759F2790BA8200580B89 /* NotificationView.swift in Sources */,
+				ABDD75C02790BB9B00580B89 /* HeroesListView.swift in Sources */,
+				ABDD75BD2790BB9500580B89 /* SeriesListView.swift in Sources */,
+				ABDD75B72790BB7900580B89 /* BaseNetwork.swift in Sources */,
+				ABDD75C12790BB9D00580B89 /* HeroesRowView.swift in Sources */,
+				ABDD75BA2790BB8C00580B89 /* SeriesListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDD75C32790BBF100580B89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABDD75962790BA8100580B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDD75922790BA8100580B89 /* whatch WatchKit Extension */;
+			targetProxy = ABDD75952790BA8100580B89 /* PBXContainerItemProxy */;
+		};
+		ABDD75AA2790BA8200580B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDD758A2790BA7F00580B89 /* whatch */;
+			targetProxy = ABDD75A92790BA8200580B89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AB1DCCAF278EED33007AA1B8 /* Debug */ = {
@@ -443,6 +704,178 @@
 			};
 			name = Release;
 		};
+		ABDD75AD2790BA8200580B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM22ATNJGG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = whatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = whatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.keepcoding.kcMarvelApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keepcoding.kcMarvelApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		ABDD75AE2790BA8200580B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM22ATNJGG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = whatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = whatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.keepcoding.kcMarvelApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keepcoding.kcMarvelApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		ABDD75B02790BA8200580B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"whatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = AM22ATNJGG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "whatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "whatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keepcoding.kcMarvelApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		ABDD75B12790BA8200580B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"whatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = AM22ATNJGG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "whatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "whatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keepcoding.kcMarvelApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		ABDD75D42790BBF300580B89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macos/macos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos/Preview Content\"";
+				DEVELOPMENT_TEAM = AM22ATNJGG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keepcoding.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABDD75D52790BBF300580B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macos/macos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos/Preview Content\"";
+				DEVELOPMENT_TEAM = AM22ATNJGG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.keepcoding.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,6 +893,33 @@
 			buildConfigurations = (
 				AB1DCCB2278EED33007AA1B8 /* Debug */,
 				AB1DCCB3278EED33007AA1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDD75B22790BA8200580B89 /* Build configuration list for PBXNativeTarget "whatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDD75B02790BA8200580B89 /* Debug */,
+				ABDD75B12790BA8200580B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDD75B32790BA8200580B89 /* Build configuration list for PBXNativeTarget "whatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDD75AD2790BA8200580B89 /* Debug */,
+				ABDD75AE2790BA8200580B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDD75D32790BBF300580B89 /* Build configuration list for PBXNativeTarget "macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDD75D42790BBF300580B89 /* Debug */,
+				ABDD75D52790BBF300580B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
