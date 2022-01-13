@@ -24,7 +24,7 @@ struct SeriesListView: View {
                 let _ = viewModel.getSeriesHeroe(id: heroe.id) 
             }
         case .loading:
-            Text("Leyendo datos")
+            CargandoView()
         case Status.loaded:
             List {
                 if let results = viewModel.welcome?.data.results {
