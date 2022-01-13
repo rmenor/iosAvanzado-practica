@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct kcMarvelAppApp: App {
+    @StateObject var homeViewModel = HomeViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(homeViewModel)
         }
     }
 }
