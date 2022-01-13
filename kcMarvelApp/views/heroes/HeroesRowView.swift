@@ -37,8 +37,11 @@ struct HeroesRowView: View {
             
             Text("\(heroe.name!)")
                 .font(.title)
-                .foregroundColor(.gray)
+                .foregroundColor(.black)
         }
+        .background(Color.gray)
+        .cornerRadius(10)
+        .opacity(0.8)
         .onAppear {
             viewModel.loadImage(url: self.heroe.thumbnail.path+"/landscape_xlarge.jpg")
         }
